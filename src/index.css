@@ -1,0 +1,110 @@
+body {
+  background-color:#ece5dd;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.sidebar {
+  position:absolute;
+  background-color:#ece5dd;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  /* Changed from 'left: 0;' to 'right: 0;' */
+  /* padding: 20px 0 0; */
+  /* Height of navbar */
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.05);
+  width: 350px;
+  z-index: 600;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+    background-color: #ece5dd;
+  }
+}
+
+
+.sidebar {
+  position:absolute;
+  background-color:#ece5dd;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  /* Changed from 'left: 0;' to 'right: 0;' */
+  /* padding: 20px 0 0; */
+  /* Height of navbar */
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.05);
+  width: 350px;
+  z-index: 600;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+    background-color: #ece5dd;
+  }
+}
+
+/* .sidebar .active {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+} */
+
+.sidebar-sticky {
+  
+  position: fixed;
+  top: 0;
+  height:800px;
+  background-color: #ece5dd;
+  /* height: calc(100vh - 48px) */
+  /* padding-top: 0.5rem; */
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* Scrollable contents if viewport is shorter than content. */
+}
+
+.image-container {
+  display: flex; /* Use flexbox to make the images side by side */
+}
+.image-container img {
+  width: 200px; /* Set the width of each image */
+  height: auto; /* Maintain aspect ratio */
+  margin: 50px; /* Add a small margin between the images */
+}
+
+.image-container {
+  display: flex; /* Use flexbox to make the images side by side */
+}
+.image-button {
+  display:inline;
+  /* background-image: url(''); Replace 'button-image.jpg' with the path to your image */
+  width: 200px; /* Set width of the button */
+  height: 200px; /* Set height of the button */
+  background-size: cover;
+  text-indent: -9999px; /* Hide text */
+  border: none;
+  cursor: pointer;
+}
+.img-fluid
+{
+  height: 125px;
+}
+.container {
+  display: flex; /* Use flexbox */
+}
+
+.left-div, .right-div {
+  flex: 1; /* Make both divs take up equal space */
+  /* border: 1px solid black; Optional: Add borders for clarity */
+}
