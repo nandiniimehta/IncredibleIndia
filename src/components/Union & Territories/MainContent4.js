@@ -8,7 +8,7 @@ const UnionData = require('./union_ter.json');
 
 
 const MainContent4 = () => {
-    const [activeContent, setActiveContent] = useState('');
+    const [activeContent, setActiveContent] = useState('content1');
 
     const handleContentChange = (content) => {
         setActiveContent(content);
