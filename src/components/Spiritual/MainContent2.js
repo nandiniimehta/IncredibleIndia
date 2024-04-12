@@ -9,7 +9,7 @@ const SpiritualData = require('./spiritual.json');
  // Import other content components
 
 const MainContent2 = () => {
-    const [activeContent, setActiveContent] = useState('');
+    const [activeContent, setActiveContent] = useState('content1');
 
     const handleContentChange = (content) => {
         setActiveContent(content);
