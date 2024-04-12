@@ -11,7 +11,7 @@ const MainContent = () => {
     // console.log("HeritageData:", HeritageData); // Ensure HeritageData has the correct structure
     // console.log("HeritageDatatitle", HeritageData[0].title1); 
 
-    const [activeContent, setActiveContent] = useState('');
+    const [activeContent, setActiveContent] = useState('content1');
 
     const handleContentChange = (content) => {
         setActiveContent(content);
